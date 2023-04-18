@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+}
+
+
+nav {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: larger;
+    cursor: pointer;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li::before {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    top: 1.5rem;
+}
+
+ul li:hover::before {
+    width: 100%;
+}
+
+
+.sec1 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.sec1 h1 {
+    font-size: 3rem;
+}
+
+.sec1 p {
+    width: 50%;
+    font-size: larger;
+}
+
+.btn1 {
+    width: 25vh;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #CCADAD;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #d3c3c3;
+    ;
+}
+
+.sec2 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.div1 {
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img1 {
+    width: 31%;
+    height: 82%;
+}
+
+.img2 {
+    width: 31%;
+    height: 82%;
+    margin-bottom: 140px;
+
+
+}
+
+.img3 {
+    width: 31%;
+    height: 82%;
+}
+
+
+.sec3 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.div2 {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.div2 span {
+    width: 50%;
+    font-size: medium;
+}
+
+.div2 p {
+    width: 50%;
+    font-size: 3rem;
+}
+
+.div3 {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.div3 p {
+    width: 58%;
+    font-size: 2.6vh;
+    margin-top: 3rem;
+}
+
+
+.sec4 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+
+}
+
+.div4 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div5 {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+
+.div5 span {
+    width: 20%;
+    font-size: 3rem;
+}
+
+.div5 p {
+    width: 120%;
+    font-size: 1.1rem;
+
+}
+
+.div6 {
+    width: 50%;
+    height: 100%;
+}
+
+
+.sec5 {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sec5 h1 {
+    font-size: xx-large;
+}
+
+.sec6 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.div7 {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div8 {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn2 {
+
+    width: 14%;
+    height: 8vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #CCADAD;
+    color: white;
+    font-size: medium;
+    cursor: pointer
+}
+
+.btn2:hover {
+    background-color: #d3c3c3;
+}
+
+.sec7 {
+    width: 100%;
+    height: 90vh;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div9 {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.div9 h1 {
+    font-size: 3rem;
+}
+
+.div9 span {
+    font-size: 3vh;
+}
+
+
+.div10 {
+    width: 50%;
+    height: 80vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inp1 {
+    width: 80%;
+    height: 8vh;
+    border: none;
+    background-color: #E3E3E3;
+}
+
+.inp2 {
+    width: 80%;
+    height: 15vh;
+    padding-bottom: 3rem;
+    border: none;
+    background-color: #E3E3E3;
+}
+
+
+.btn3 {
+
+    width: 30%;
+    height: 8vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #CCADAD;
+    color: white;
+    font-size: medium;
+    cursor: pointer
+}
+
+.btn3:hover {
+    background-color: #d3c3c3;
+}
+
+
+.sec8 {
+    width: 100%;
+    height: 60vh;
+}
+
+.sec8 img {
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.div11 {
+    width: 20%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.div12 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.div12 h1 {
+    font-size: x-large;
+}
+
+.div12 span {
+    font-size: medium;
+}
+
+.div13 {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+.div14 {
+
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7.3rem;
+}
+
+.div15 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.div15 h1 {
+    font-size: x-large;
+}
+
+.div15 span {
+    width: 50%;
+    font-size: medium;
+}
+
+.div16 {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+
+
+.div17 {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.div17 h1 {
+    font-size: x-large;
+}
+
+
+.inp3 {
+    width: 90%;
+    height: 8vh;
+    border: none;
+    background-color: #E3E3E3;
+}
+
+
+
+
+.btn4 {
+
+    width: 30%;
+    height: 8vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #CCADAD;
+    color: white;
+    font-size: medium;
+    cursor: pointer
+}
+
+.btn4:hover {
+    background-color: #d3c3c3;
+}
